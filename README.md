@@ -50,7 +50,7 @@ To run the genetic algorithm:
 ## Future Enhancements and To-Do List 📝
 
 - [ ] Implement crossover mechanisms for prompt evolution.
-- [ ] Enhance fitness evaluation to account for prompt conciseness and relevance.
 - [ ] Introduce additional mutation strategies for diverse prompt exploration.
 - [ ] Add functionality to visualize the evolution of prompts over time.
-- [ ] Explore integration with different LLMs and compare performance.
+- [ ] Improve fitness evaluation.
+- [ ] Explore different LLMs and compare performance.
