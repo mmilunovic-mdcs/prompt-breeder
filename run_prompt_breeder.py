@@ -111,8 +111,7 @@ def main(args):
     print(population)
 
     gsm8k_dataset = read_jsonl("./gsm8k_sampled.jsonl")
-    # openai.api_key = os.environ["OPENAI_API_KEY"]
-    openai.api_key = "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"
+    openai.api_key = os.environ["OPENAI_API_KEY"]
 
     # Initialize and evaluate fitness of the initial population
     init_run(population, gsm8k_dataset, args.num_evals)
